@@ -5,7 +5,7 @@ import { LabelInput } from "@/components/common/Input/input";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import { fetchGetTeacherByTeacherIdAsync } from "@/api/oldApi/teacher/teacherAPI";
-import { GetTeacherByTeacherId } from "@/DTO/teacherDto";
+import { GetTeacherByTeacherId } from "@/dto/teacherDto";
 
 interface Props {
   id: number;

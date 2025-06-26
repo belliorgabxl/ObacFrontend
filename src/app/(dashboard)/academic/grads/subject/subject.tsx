@@ -3,7 +3,7 @@
 import { DataTable } from "@/components/common/MainTable/table_style_1";
 import { Combobox } from "@/components/common/Combobox/combobox";
 import { Input } from "@/components/ui/input";
-import { GradingDataColumn } from "@/DTO/gradingDto";
+import { GradingDataColumn } from "@/dto/gradingDto";
 import { getGradingViewData } from "@/resource/academics/grading/viewData/gradingViewData";
 import { useEffect, useState } from "react";
 

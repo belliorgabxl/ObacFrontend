@@ -2,7 +2,7 @@
 
 import { LabelInput } from "@/components/common/Input/input";
 import { Badge } from "@/components/ui/badge";
-import { StudentCreateData } from "@/DTO/studentDto";
+import { StudentCreateData } from "@/dto/studentDto";
 import { useState } from "react";
 import { Combobox } from "@/components/common/Combobox/combobox";
 import { fetchCreateStudentAsync } from "@/api/oldApi/student/studentApi";

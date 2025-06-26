@@ -2,9 +2,9 @@ import { fetchCreateScheduleSubject } from "@/api/oldApi/schedule/scheduleAPI";
 import { fetchGetStudentGroupsByTermYear } from "@/api/oldApi/student/studentApi";
 import { fetchGetAllActiveSubject } from "@/api/oldApi/subject/subjectAPI";
 
-import { CreateScheduleSubjectRequest } from "@/DTO/schedule";
-import { GetStudentGroupsByTermYearDto } from "@/DTO/studentDto";
-import { GetAllSubject } from "@/DTO/subjectDto";
+import { CreateScheduleSubjectRequest } from "@/dto/schedule";
+import { GetStudentGroupsByTermYearDto } from "@/dto/studentDto";
+import { GetAllSubject } from "@/dto/subjectDto";
 import React, { useEffect, useState } from "react";
 import Select from "react-select";
 import { toast } from "react-toastify";

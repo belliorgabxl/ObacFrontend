@@ -2,7 +2,7 @@
 import { DataTable } from "@/components/common/MainTable/table_style_1";
 import { Combobox } from "@/components/common/Combobox/combobox";
 import { Input } from "@/components/ui/input";
-import { GetAllStudentTableDto } from "@/DTO/studentDto";
+import { GetAllStudentTableDto } from "@/dto/studentDto";
 import { getAllStudentViewData } from "@/resource/academics/grading/viewData/individualGradeViewData";
 import { Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";

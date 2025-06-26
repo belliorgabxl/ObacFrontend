@@ -5,8 +5,8 @@ import {
 import {
   convertGradBySubjectId,
   ConvertClassroomToExcelDto,
-} from "@/DTO/gradDto";
-import { StudentListByGroupIDDto } from "@/DTO/studentDto";
+} from "@/dto/gradDto";
+import { StudentListByGroupIDDto } from "@/dto/studentDto";
 import ExcelJS from "exceljs";
 
 export async function ConvertScoreToExcel(

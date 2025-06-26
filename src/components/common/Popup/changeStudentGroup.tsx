@@ -3,7 +3,7 @@ import {
   fetchGetStudentGroupsByTermYear,
   fetchUpdateGroup,
 } from "@/api/oldApi/student/studentApi";
-import { GetStudentGroupsByTermYearDto } from "@/DTO/studentDto";
+import { GetStudentGroupsByTermYearDto } from "@/dto/studentDto";
 import React, { useEffect, useState } from "react";
 import Select from "react-select";
 import { toast } from "react-toastify";

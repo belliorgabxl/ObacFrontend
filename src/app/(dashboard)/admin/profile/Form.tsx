@@ -3,9 +3,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { fetchGetTeacherByTeacherIdAsync } from "@/api/oldApi/teacher/teacherAPI";
-import { GetTeacherByTeacherId } from "@/DTO/teacherDto";
+import { GetTeacherByTeacherId } from "@/dto/teacherDto";
 import { fetchGetUserInfoById } from "@/resource/academics/userInfo/api/userInfoApi";
-import { GetUserInfoById } from "@/DTO/userDto";
+import { GetUserInfoById } from "@/dto/userDto";
 import cookies from "js-cookie";
 
 const getUserInfoById = async (userId: string) => {

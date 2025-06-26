@@ -1,6 +1,6 @@
 import { LabelText } from "@/components/common/labelText/labelText";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { StudentRegisterData } from "@/DTO/registerDto";
+import { StudentRegisterData } from "@/dto/registerDto";
 import { registerData } from "@/resource/academics/registerStudentInfo/mock";
 import { User } from "lucide-react"; // Profile icon
 

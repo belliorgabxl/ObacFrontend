@@ -4,14 +4,14 @@ import MenuBar from "./Menu";
 import SubjectTableForm from "./Form";
 import {
   GetGradBySubjectId
-} from "@/DTO/gradDto";
+} from "@/dto/gradDto";
 import {
   fetchGetStudentGroupGradeByGroupIdTermYear,
 } from "@/api/oldApi/grad/gradAPI";
-import { GetScheduleBysubjectId } from "@/DTO/schedule";
+import { GetScheduleBysubjectId } from "@/dto/schedule";
 import { fetchGetSubjectBySubjectId } from "@/api/oldApi/subject/subjectAPI";
-import { GetSubjectBySubjectId } from "@/DTO/subjectDto";
-import { MethodDto } from "@/DTO/methodDto";
+import { GetSubjectBySubjectId } from "@/dto/subjectDto";
+import { MethodDto } from "@/dto/methodDto";
 import { fetchMethod } from "@/api/oldApi/method/methodAPI";
 
 interface Props {

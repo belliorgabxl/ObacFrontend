@@ -1,4 +1,4 @@
-import { GetAllStudentTableDto, StudentTranscriptData } from "@/DTO/studentDto";
+import { GetAllStudentTableDto, StudentTranscriptData } from "@/dto/studentDto";
 import {
   GetAllStudentDataApi,
   GetStudentByIdDataApi,

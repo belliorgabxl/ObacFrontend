@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import { AlarmClock } from "lucide-react";
 import { fetchPutMethodData } from "@/resource/academics/grading/api/methodPeriodApiData";
-import { MethodDto } from "@/DTO/methodDto";
+import { MethodDto } from "@/dto/methodDto";
 import { getMethodViewData } from "@/resource/academics/grading/viewData/methodPeriodViewData";
 import { usePathname } from "next/navigation";
 

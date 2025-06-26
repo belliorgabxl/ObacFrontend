@@ -1,5 +1,5 @@
 "use server";
-import { GetGradBySubjectId } from "@/DTO/gradDto";
+import { GetGradBySubjectId } from "@/dto/gradDto";
 import apiClient from "@/lib/apiClient";
 import { cookies } from "next/headers";
 

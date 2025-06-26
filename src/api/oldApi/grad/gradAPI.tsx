@@ -1,5 +1,5 @@
 "use server";
-// import { GetGradBySubjectId } from "@/DTO/gradDto";
+
 import {
   GetGradBySubjectId,
   GetGradPerTermByStudentIdDto,
@@ -7,7 +7,7 @@ import {
   GetGropGradeBelowModel,
   GetStudentGradeDetailDto,
   GetStudentGroupGradeByGroupIdTermYearDto,
-} from "@/DTO/gradDto";
+} from "@/dto/gradDto";
 import { cookies } from "next/headers";
 
 

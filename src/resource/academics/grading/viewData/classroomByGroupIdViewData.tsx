@@ -1,4 +1,4 @@
-import { GetStudentByGroupId } from "@/DTO/studentDto";
+import { GetStudentByGroupId } from "@/dto/studentDto";
 import { getClassroomByGroupId } from "../api/classroomByGroupIdApiData";
 import {
   GeneralData,

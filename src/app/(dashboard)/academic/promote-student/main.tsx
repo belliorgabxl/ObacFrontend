@@ -10,8 +10,8 @@ import { ArrowUpDown } from "lucide-react";
 import { toast } from "react-toastify";
 import { GetGropGradeAbove } from "@/api/oldApi/grad/gradAPI";
 import { fetchPromoteStudentGroup, fetchGetStudentGroupsByTermYear } from "@/api/oldApi/student/studentApi";
-import { GetStudentGroupsByTermYearDto } from "@/DTO/studentDto";
-import { GetGropGradeAboveModel } from "@/DTO/gradDto";
+import { GetStudentGroupsByTermYearDto } from "@/dto/studentDto";
+import { GetGropGradeAboveModel } from "@/dto/gradDto";
 import HeaderLabel from "@/components/common/labelText/HeaderLabel";
 // import { GetStudentGroupsByTermYearDto, GetGropGradeAboveModel } from "@/dto/gradDto";
 

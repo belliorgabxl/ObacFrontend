@@ -3,10 +3,10 @@ import { fetchGetStudentGroupsByTermYear } from "@/api/oldApi/student/studentApi
 import { fetchGetAllSubjectByTerm } from "@/api/oldApi/subject/subjectAPI";
 import { fetchGetAllTeacherAsync } from "@/api/oldApi/teacher/teacherAPI";
 import { Input } from "@/components/ui/input";
-import { CreateScheduleSubjectRequest } from "@/DTO/schedule";
-import { GetStudentGroupsByTermYearDto } from "@/DTO/studentDto";
-import { GetAllSubject } from "@/DTO/subjectDto";
-import { GetAllTeacher } from "@/DTO/teacherDto";
+import { CreateScheduleSubjectRequest } from "@/dto/schedule";
+import { GetStudentGroupsByTermYearDto } from "@/dto/studentDto";
+import { GetAllSubject } from "@/dto/subjectDto";
+import { GetAllTeacher } from "@/dto/teacherDto";
 import React, { useEffect, useState } from "react";
 import Select from "react-select";
 import { toast } from "react-toastify";

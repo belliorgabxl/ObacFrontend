@@ -3,7 +3,7 @@ import { CardSchedule } from "@/components/common/Card/card-schedule";
 import { Badge } from "@/components/ui/badge";
 import { StudentCardSubjectData } from "@/resource/students/studentCardSubjectData";
 import { fetchGetScheduleOfStudentByStudentID } from "@/api/oldApi/schedule/scheduleAPI";
-import { StudentGroupScheduleSubject } from "@/DTO/schedule";
+import { StudentGroupScheduleSubject } from "@/dto/schedule";
 
 type Props = {
   student_id: number;

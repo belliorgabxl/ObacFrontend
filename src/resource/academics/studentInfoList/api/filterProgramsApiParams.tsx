@@ -1,5 +1,5 @@
 "use server";
-import { filterProgramsParamsData } from "@/DTO/studentDto";
+import { filterProgramsParamsData } from "@/dto/studentDto";
 import apiClient from "@/lib/apiClient";
 import { cookies } from "next/headers";
 

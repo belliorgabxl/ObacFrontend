@@ -1,4 +1,4 @@
-import { GradingData, UpdateStudentGrade } from "@/DTO/gradingDto";
+import { GradingData, UpdateStudentGrade } from "@/dto/gradingDto";
 import apiClient from "@/lib/apiClient";
 import Cookies from "js-cookie";
 

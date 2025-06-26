@@ -1,4 +1,4 @@
-import { GetEventManagement } from "@/DTO/eventDto";
+import { GetEventManagement } from "@/dto/eventDto";
 import { format } from "date-fns";
 import { faker } from "@faker-js/faker";
 

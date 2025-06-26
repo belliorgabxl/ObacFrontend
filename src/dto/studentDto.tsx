@@ -1,4 +1,4 @@
-import { GetSubjectByGroupId } from "@/DTO/subjectDto";
+import { GetSubjectByGroupId } from "@/dto/subjectDto";
 
 export interface StudentCreateData {
   userName: string;

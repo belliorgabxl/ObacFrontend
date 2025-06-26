@@ -1,5 +1,5 @@
 "use server";
-import { MethodDto } from "@/DTO/methodDto";
+import { MethodDto } from "@/dto/methodDto";
 import { cookies } from "next/headers";
 
 export const fetchMethod = async (): Promise<MethodDto> => {

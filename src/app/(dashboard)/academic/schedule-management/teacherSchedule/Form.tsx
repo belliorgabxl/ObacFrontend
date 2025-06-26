@@ -4,8 +4,8 @@ import {
   fetchGetScheduleOfTeacherByTeacherID,
 } from "@/api/oldApi/schedule/scheduleAPI";
 import { fetchGetTeacherByTeacherIdAsync } from "@/api/oldApi/teacher/teacherAPI";
-import { TeacherScheduleSubject } from "@/DTO/schedule";
-import { GetTeacherByTeacherId } from "@/DTO/teacherDto";
+import { TeacherScheduleSubject } from "@/dto/schedule";
+import { GetTeacherByTeacherId } from "@/dto/teacherDto";
 import { GraduationCap, PlusCircle } from "lucide-react";
 import React from "react";
 import { useEffect, useState } from "react";

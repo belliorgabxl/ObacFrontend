@@ -3,7 +3,7 @@ import { makeColumns } from "@/components/common/table/makeColumns";
 import { DataTable } from "@/components/common/table/tableComponent";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { GetAllTeacher } from "@/DTO/teacherDto";
+import { GetAllTeacher } from "@/dto/teacherDto";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { fetchGetAllTeacherAsync } from "@/api/oldApi/teacher/teacherAPI";

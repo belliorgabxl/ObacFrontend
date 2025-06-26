@@ -4,7 +4,7 @@ import StudentNameListPDF from "@/lib/PDF/StudentNameList";
 import {
   GetStudentListByGroupIDDto,
   StudentListByGroupIDDto,
-} from "@/DTO/studentDto";
+} from "@/dto/studentDto";
 import { ConvertClassroomToExcel } from "@/lib/convertToExcel";
 import { Download, Loader2, UsersRound } from "lucide-react";
 import Link from "next/link";

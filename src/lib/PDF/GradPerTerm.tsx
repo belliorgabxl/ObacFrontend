@@ -3,7 +3,7 @@
 import jsPDF from "jspdf";
 import THSarabunFont from "../Font/THSarabunFont";
 import THSarabunFontBold from "../Font/THSarabunBold";
-import { GetGradPerTermByStudentIdDto } from "@/DTO/gradDto";
+import { GetGradPerTermByStudentIdDto } from "@/dto/gradDto";
 
 const GradPerTerms = (grads: GetGradPerTermByStudentIdDto) => {
   const now = new Date();

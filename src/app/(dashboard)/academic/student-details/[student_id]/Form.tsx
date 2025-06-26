@@ -7,7 +7,7 @@ import GradPerTerms from "@/lib/PDF/GradPerTerm";
 import SummaryGradPDF from "@/lib/PDF/SummaryGrade";
 import ChangeStudentGroup from "@/components/common/Popup/changeStudentGroup";
 import ConfirmChangeStudentsStatus from "@/components/common/Popup/confirmChangeStudentsStatus";
-import { GetStudentByStudentId, UpdateStudentRequestBody } from "@/DTO/studentDto";
+import { GetStudentByStudentId, UpdateStudentRequestBody } from "@/dto/studentDto";
 import { educationOptions } from "@/resource/academics/options/studentOption";
 import { gradeService } from "@/lib/api/services/grade.service";
 import {

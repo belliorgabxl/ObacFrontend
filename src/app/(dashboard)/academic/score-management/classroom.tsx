@@ -7,7 +7,7 @@ import {
   FacultyInfo,
   EducationData,
   filterProgramsParamsData,
-} from "@/DTO/studentDto";
+} from "@/dto/studentDto";
 import { getGroupSummaryGradeViewData } from "@/resource/academics/grading/viewData/classroomByGroupIdViewData";
 import {
   filterProgramsViewData,

@@ -1,4 +1,4 @@
-import { StudentRegisterData } from "@/DTO/registerDto";
+import { StudentRegisterData } from "@/dto/registerDto";
 import { faker } from "@faker-js/faker";
 const facultyNames = ["พาณิชยกรรม", "การท่องเที่ยว"];
 const programNames = [

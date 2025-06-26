@@ -4,14 +4,14 @@ import GenSubjectScore from "@/lib/PDF/genSubjectScore";
 import {
   ConvertGradBySubjectId,
   GetGradBySubjectId,
-} from "@/DTO/gradDto";
-import { GetScheduleBysubjectId } from "@/DTO/schedule";
-import { GetSubjectBySubjectId } from "@/DTO/subjectDto";
+} from "@/dto/gradDto";
+import { GetScheduleBysubjectId } from "@/dto/schedule";
+import { GetSubjectBySubjectId } from "@/dto/subjectDto";
 import { ConvertScoreToExcel } from "@/lib/convertToExcel";
 import { CircleX, Pencil } from "lucide-react";
 import { useEffect, useState } from "react";
 
-import { MethodDto } from "@/DTO/methodDto";
+import { MethodDto } from "@/dto/methodDto";
 
 interface Props {
   grads?: GetGradBySubjectId[];

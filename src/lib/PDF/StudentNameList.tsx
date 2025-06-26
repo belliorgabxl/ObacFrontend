@@ -3,7 +3,7 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import THSarabunFont from "../Font/THSarabunFont";
 import THSarabunFontBold from "../Font/THSarabunBold";
-import { StudentListByGroupIDDto } from "@/DTO/studentDto";
+import { StudentListByGroupIDDto } from "@/dto/studentDto";
 
 interface DataList {
   student?: StudentListByGroupIDDto[];

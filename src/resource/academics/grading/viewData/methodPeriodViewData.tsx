@@ -1,4 +1,4 @@
-import { MethodDto } from "@/DTO/methodDto";
+import { MethodDto } from "@/dto/methodDto";
 import { fetchGetAllMethodData } from "../api/methodPeriodApiData";
 
 export const getMethodViewData = async (): Promise<MethodDto[]> => {

@@ -1,7 +1,7 @@
 "use client";
 import { GetGropGradeBelow } from "@/api/oldApi/grad/gradAPI";
 import StudentFailList from "@/lib/PDF/StudentFailList";
-import { GetGropGradeBelowModel } from "@/DTO/gradDto";
+import { GetGropGradeBelowModel } from "@/dto/gradDto";
 import { Download, Loader2, Search, User } from "lucide-react";
 import { useRouter } from "next/navigation";
 import React, { useMemo, useState } from "react";

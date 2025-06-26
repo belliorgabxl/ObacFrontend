@@ -1,4 +1,4 @@
-import { filterProgramsParamsData, EducationData } from "@/DTO/studentDto";
+import { filterProgramsParamsData, EducationData } from "@/dto/studentDto";
 import { filterProgramsData } from "../api/filterProgramsApiParams";
 
 export async function filterProgramsViewData(

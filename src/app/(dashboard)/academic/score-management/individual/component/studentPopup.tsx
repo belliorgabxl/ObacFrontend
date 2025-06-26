@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Combobox } from "@/components/common/Combobox/combobox";
 import Swal from "sweetalert2";
-import { UpdateStudentGrade } from "@/DTO/gradingDto";
+import { UpdateStudentGrade } from "@/dto/gradingDto";
 import { updateGradingStundetData } from "@/resource/academics/grading/api/gradingApiData";
 
 export interface SubjectData {

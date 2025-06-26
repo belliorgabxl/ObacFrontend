@@ -1,5 +1,5 @@
 "use server";
-import { GetAllSubject, GetSubjectBySubjectId } from "@/DTO/subjectDto";
+import { GetAllSubject, GetSubjectBySubjectId } from "@/dto/subjectDto";
 import { cookies } from "next/headers";
 
 export const fetchGetSubjectBySubjectId = async (

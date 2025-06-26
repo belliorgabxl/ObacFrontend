@@ -3,7 +3,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { fetchTeacherUser } from "@/api/oldApi/teacher/teacherAPI";
-import { GetTeacherByTeacherId } from "@/DTO/teacherDto";
+import { GetTeacherByTeacherId } from "@/dto/teacherDto";
 
 const getTeachData = async () => {
   try {

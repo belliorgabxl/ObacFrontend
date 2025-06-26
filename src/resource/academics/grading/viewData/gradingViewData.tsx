@@ -1,4 +1,4 @@
-import { GradingData, GradingDataColumn } from "@/DTO/gradingDto";
+import { GradingData, GradingDataColumn } from "@/dto/gradingDto";
 import { getGradingData } from "../api/gradingApiData";
 
 export const getGradingViewData = async (

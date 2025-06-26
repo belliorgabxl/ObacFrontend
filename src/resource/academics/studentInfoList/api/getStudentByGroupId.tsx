@@ -1,4 +1,4 @@
-import { StudentInfoByGroupId } from "@/DTO/studentDto";
+import { StudentInfoByGroupId } from "@/dto/studentDto";
 import apiClient from "@/lib/apiClient";
 
 export const getStudentByGroupId = async (

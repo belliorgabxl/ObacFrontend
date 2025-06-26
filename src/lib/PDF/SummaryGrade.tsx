@@ -3,7 +3,7 @@
 import jsPDF from "jspdf";
 import THSarabunFont from "../Font/THSarabunFont";
 import THSarabunFontBold from "../Font/THSarabunBold";
-import { GetStudentGradeDetailDto } from "@/DTO/gradDto";
+import { GetStudentGradeDetailDto } from "@/dto/gradDto";
 
 const SummaryGradPDF = (grads: GetStudentGradeDetailDto) => {
   const getThaiDate = () => {

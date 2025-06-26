@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { ClassroomGrading } from "./classroomGrading";
 import { fetchGetAllStudent } from "@/api/oldApi/student/studentApi";
-import { GetAllStudent } from "@/DTO/studentDto";
+import { GetAllStudent } from "@/dto/studentDto";
 import { useRouter } from "next/navigation";
 import Select from "react-select";
 import { BookUser, Loader2, Search } from "lucide-react";

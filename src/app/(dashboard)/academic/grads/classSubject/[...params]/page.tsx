@@ -3,7 +3,7 @@
 import { Combobox } from "@/components/common/Combobox/combobox";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { ClassSubjectColumn, ClassSubjectData } from "@/DTO/gradingDto";
+import { ClassSubjectColumn, ClassSubjectData } from "@/dto/gradingDto";
 import { getSubjectClassViewData } from "@/resource/academics/grading/viewData/subjectClassViewData";
 import { useEffect, useState } from "react";
 import {

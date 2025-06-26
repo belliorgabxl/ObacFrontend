@@ -1,5 +1,5 @@
 "use server";
-import { GetAllStudent, StudentTranscriptData } from "@/DTO/studentDto";
+import { GetAllStudent, StudentTranscriptData } from "@/dto/studentDto";
 import { cookies } from "next/headers";
 
 export async function GetAllStudentDataApi(): Promise<GetAllStudent[]> {

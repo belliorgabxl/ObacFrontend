@@ -5,7 +5,7 @@ import { DataTable } from "@/components/common/table/tableComponent";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 
-import { GetEventManagement } from "@/DTO/eventDto";
+import { GetEventManagement } from "@/dto/eventDto";
 import { exampleEventManagementData } from "@/resource/admin/eventManagemnt/eventManagementData";
 import React, { useEffect, useState } from "react";
 

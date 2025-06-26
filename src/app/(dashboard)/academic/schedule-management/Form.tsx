@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect, useState} from "react";
 import { BookText, PlusCircle } from "lucide-react";
-import { GetStudentGroupsByTermYearDto } from "@/DTO/studentDto";
+import { GetStudentGroupsByTermYearDto } from "@/dto/studentDto";
 import { fetchGetStudentGroupsByTermYear } from "@/api/oldApi/student/studentApi";
-import { GetAllTeacher } from "@/DTO/teacherDto";
+import { GetAllTeacher } from "@/dto/teacherDto";
 import { fetchGetAllTeacherAsync } from "@/api/oldApi/teacher/teacherAPI";
 import Link from "next/link";
 import AddSchedulePopUp from "./AddSchedulePopUp";

@@ -3,8 +3,8 @@ import { fetchGetStudentGradeDetail } from "@/api/oldApi/grad/gradAPI";
 import { LabelText } from "@/components/common/labelText/labelText";
 import SummaryGradPDF from "@/lib/PDF/SummaryGrade";
 import { Badge } from "@/components/ui/badge";
-import { GetStudentGradeDetailDto } from "@/DTO/gradDto";
-import { StudentTranscriptData, TermQuery, YearData } from "@/DTO/studentDto";
+import { GetStudentGradeDetailDto } from "@/dto/gradDto";
+import { StudentTranscriptData, TermQuery, YearData } from "@/dto/studentDto";
 import { getStudentDataById } from "@/resource/academics/grading/viewData/individualGradeViewData";
 
 import Link from "next/link";

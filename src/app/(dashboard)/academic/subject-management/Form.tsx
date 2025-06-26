@@ -7,9 +7,9 @@ import {
 import { LibraryBig, Pencil, PlusCircle } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-import { GetAllSubject } from "@/DTO/subjectDto";
+import { GetAllSubject } from "@/dto/subjectDto";
 import { fetchGetAllProgram } from "@/api/oldApi/program/programAPI";
-import { GetAllProgram } from "@/DTO/programDto";
+import { GetAllProgram } from "@/dto/programDto";
 import Select from "react-select";
 
 const getAllSubject = async () => {

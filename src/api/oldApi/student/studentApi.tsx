@@ -8,7 +8,7 @@ import {
   StudentCreateData,
   StudentGroup,
   UpdateStudentRequestBody,
-} from "@/DTO/studentDto";
+} from "@/dto/studentDto";
 import { cookies } from "next/headers";
 
 export const fetchCreateStudentAsync = async (
